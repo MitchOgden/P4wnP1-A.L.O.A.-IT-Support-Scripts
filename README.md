@@ -1,6 +1,6 @@
 # P4wnP1 A.L.O.A. IT Support Scripts
 
-Various scripts to help automate common IT tasks using a Rspberry Pi Zero W and the P4wnP1-A.L.O.A. image related to deployment, device enrollment, installation/removal of programs, network analysis, etc...
+Various scripts to help automate common IT tasks using a Raspberry Pi Zero W and the P4wnP1-A.L.O.A. image related to deployment, device enrollment, installation/removal of programs, network analysis, etc...
 
  - [P4wnP1 A.L.O.A.](https://github.com/RoganDawes/P4wnP1_aloa)
  - [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
