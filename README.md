@@ -13,6 +13,6 @@ Various scripts to help automate common IT tasks using a Raspberry Pi Zero W and
  - [**win10-install-adobe-chrome-javaruntime-office2016-nanoheal.js:**](https://github.com/MitchOgden/P4wnP1-A.L.O.A.-IT-Support-Scripts/blob/master/HIDScripts/win10-install-adobe-chrome-javaruntime-office2016-nanoheal) Perform a silent install of the current version of Adobe Reader, Google Chrome, JAVA Runtime Env, Microsoft Office 2016(product key registered), and Nanoheal client.
 
 ## Powershell Scripts
- - **dataonly-win7-to-win10.ps1:** Helper powershell script for the dataonly-win7-to-win10.js HIDScript.
- - **fresh-win7-to-win10.ps1:** Helper powershell script for the fresh-win7-to-win10.js HIDScript.
- - **upgrade-win7-to-win10.ps1:** Helper powershell script for the upgrade-win7-to-win10.js HIDScript.
+ - [**dataonly-win7-to-win10.ps1:**](https://github.com/MitchOgden/P4wnP1-A.L.O.A.-IT-Support-Scripts/blob/master/Powershell%20Scripts/dataonly-win7-to-win10.ps1) Helper powershell script for the dataonly-win7-to-win10.js HIDScript.
+ - [**fresh-win7-to-win10.ps1:**](https://github.com/MitchOgden/P4wnP1-A.L.O.A.-IT-Support-Scripts/blob/master/Powershell%20Scripts/fresh-win7-to-win10.ps1) Helper powershell script for the fresh-win7-to-win10.js HIDScript.
+ - [**upgrade-win7-to-win10.ps1:**](https://github.com/MitchOgden/P4wnP1-A.L.O.A.-IT-Support-Scripts/blob/master/Powershell%20Scripts/upgrade-win7-to-win10.ps1) Helper powershell script for the upgrade-win7-to-win10.js HIDScript.
