@@ -1,6 +1,8 @@
 # P4wnP1 A.L.O.A. IT Support Scripts
 
-Various scripts to help automate common IT tasks related to deployment, device enrollment, installation/removal of programs, network analysis, etc...
+Various scripts to help automate common IT tasks using a Rspberry Pi Zero W and the P4wnP1-A.L.O.A. image related to deployment, device enrollment, installation/removal of programs, network analysis, etc...
+
+[P4wnP1 A.L.O.A.](https://github.com/RoganDawes/P4wnP1_aloa)
 
 ## HIDScripts
  - **dataonly-win7-to-win10.js:** Perform a upgrade from Windows 7 to Windows 10 only retaining user data.
