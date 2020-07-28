@@ -74,6 +74,7 @@ delay(1000)
 press("ENTER")
 delay(1000)
 press("ALT F4")
+delay(1000)
 //Open Powershell as Admin
 press("GUI r")
 press("ENTER")
