@@ -130,5 +130,6 @@ press("LEFT")
 delay(500)
 press("ENTER")
 delay(500)
+// Change execution policy back to restricted
 type("Set-ExecutionPolicy restricted\n")
 type("exit\n")
