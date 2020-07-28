@@ -121,7 +121,7 @@ press("ENTER");
 delay(500)
 // Download application .exe from web url and install silently | Look at guide on Patreon to see how you perform silent installs of .msi and .exe files
 type("start \'https://avira.nanoheal.com/Dashboard/eula.php?id=[I don't think so friend]\'")
-delay(2000)
+delay(10000)
 press("ALT F4")
 delay(500)
 type(".\Downloads\NanohealClient-Setup-64bit-V2880-AVIRA-[I don't think so friend].exe /verysilent")
