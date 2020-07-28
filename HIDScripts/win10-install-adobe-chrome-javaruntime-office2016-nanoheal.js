@@ -60,9 +60,9 @@ type("A\n")
 delay(5000)
 type("exit\n")
 delay(1000)
+// Set Google Chrome as Default Browser
 press("GUI s")
 delay(1000)
-// Set Google Chrome as Default Browser
 type("default web\n")
 delay(1000)
 press("ENTER")
